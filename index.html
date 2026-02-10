@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinanceHub - Global Asset Monitor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .tab-active { background-color: #2563eb !important; color: white !important; }
+        #block-overlay { display: none; position: fixed; inset: 0; background: rgba(15, 23, 42, 0.98); z-index: 9999; flex-direction: column; align-items: center; justify-content: center; color: white; text-align: center; padding: 20px; }
+        .adsbox { height: 1px; width: 1px; position: absolute; left: -1000px; top: -1000px; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <div id="block-overlay">
+        <div class="bg-white text-slate-900 p-8 rounded-2xl max-w-sm shadow-2xl text-center border-t-8 border-red-600">
+            <h2 class="text-2xl font-black mb-2 text-red-600 uppercase">ACCESS DENIED</h2>
+            <p class="text-slate-600 mb-6 text-sm font-medium leading-relaxed">Please disable VPN or AdBlock to access real-time market analytics.</p>
+            <button onclick="location.reload()" class="bg-blue-600 text-white px-8 py-3 rounded-full font-bold w-full shadow-lg hover:bg-blue-700 transition-all">REFRESH SYSTEM</button>
+        </div>
+    </div>
+
+    <header class="bg-white border-b sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 h-16 flex justify-between items-center">
+            <span class="text-xl font-black text-blue-600 italic tracking-tighter uppercase">Finance<span class="text-slate-400 font-normal">Hub</span></span>
+            <div id="realtime-clock" class="bg-slate-900 text-white px-3 py-1 rounded-md font-mono text-xs font-bold tracking-widest">00:00:00</div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto p-4 lg:p-6">
+        
+        <div class="mb-8 mx-auto max-w-4xl overflow-hidden rounded-xl bg-white shadow-sm border border-slate-100">
+            <div style="width: 100%; max-width: 728px; margin: auto; height: auto">
+                <iframe data-aa='2427078' src='//ad.a-ads.com/2427078/?size=728x90' style='border:0; padding:0; width:100%; height:90px; overflow:hidden; display: block; margin: auto'></iframe>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            <div class
